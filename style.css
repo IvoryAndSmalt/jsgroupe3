@@ -46,9 +46,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+<<<<<<< HEAD
 p{
 	font-size: 20px;
 	}
 	p:hover{
 		cursor: pointer;
 	}
+=======
+
+p{
+    text-align: center;
+    margin: 10% 0;
+}
+
+p:hover{
+    cursor: pointer;
+}
+>>>>>>> 802039afbbc2c8a7ac8f6a1752e44522d4351fb0
