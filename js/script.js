@@ -12,3 +12,6 @@ texte.addEventListener("click", function () {
     }
     console.log(texte.style.fontSize);
 });
+
+
+
