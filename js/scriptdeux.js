@@ -1,5 +1,4 @@
 var rectangle = document.getElementById("rectangle");
-<<<<<<< HEAD
 rectangle.style.width = "100px";
 rectangle.style.height = "100px";
 rectangle.style.backgroundColor = "#0000FF";
@@ -47,19 +46,3 @@ console.log(rectangle.style.height);
 // rectangle.style.width = "100px";
 // rectangle.style.width = "100px";
 // rectangle.style.width = "100px";
-=======
-var oui = document.getElementById("oui");
-
-rectangle.style.height = 100 + "px";
-console.log(rectangle.style.height);
-
-oui.addEventListener("click", function(){
-if (rectangle.style.height === "300px"){
-    rectangle.style.height = "100px";
-}
-else{
-    rectangle.style.height = parseFloat(rectangle.style.height) + 10 + "px";
-    console.log(rectangle.style.height);
-}
-});
->>>>>>> oui
