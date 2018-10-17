@@ -47,3 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+p{
+    text-align: center;
+    margin: 10% 0;
+}
+
+p:hover{
+    cursor: pointer;
+}
