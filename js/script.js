@@ -1,7 +1,7 @@
 var texte = document.getElementById("textequigrandit");
 texte.style.fontSize = "20px";
 
-texte.addEventListener("click", function () {
+texte.addEventListener("keyup", function () {
 if (texte.style.fontSize === "20px"){
 texte.style.fontSize = "30px";
 console.log(texte.style.fontSize);
