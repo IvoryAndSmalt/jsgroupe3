@@ -6,15 +6,15 @@ rectangle.style.backgroundColor = "blue";
 document.addEventListener("keydown", function (event) {
     if (event.keyCode == "38") {
         rectangle.style.marginBottom = "100px";
-        console.log(rectangle.style.marginBottom);
+        Timer = setTimeout(function(){
+            rectangle.style.marginBottom = "0px";
+         }, 500);
     }
 });
 
-document.addEventListener("keyup", function (event) {
-    if (event.keyCode == "38") {
-        rectangle.style.marginBottom = "0";
-        console.log(rectangle.style.marginBottom);
-    }
-
-});
+// document.addEventListener("keyup", function (event) {
+//     if (event.keyCode == "38") {
+//         rectangle.style.marginBottom = "0";
+//     }
+// });
 
