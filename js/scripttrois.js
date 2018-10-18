@@ -16,6 +16,6 @@ document.addEventListener("keydown", function (event) {
             pog.style.display ="none";
             kappa.style.display ="flex";
             // rectangle.style.marginBottom = "0px";
-         }, 100);
+         }, 200);
     }
 });

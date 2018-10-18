@@ -73,3 +73,25 @@ html, body{
 img{
 	display: none;
 }
+
+
+.backgroundjeu{
+	height: 500px;
+	width: 1000px;
+	background: rgb(0, 0, 0);
+	border: solid 3px blue;
+	position: relative;
+}
+
+#pacman{
+	display: block;
+	position: absolute;
+	height: 30px;
+	width: 30px;
+}
+
+#jouer{
+	background: white;
+	padding: 10px 20px;
+	color: black;
+}
