@@ -12,9 +12,3 @@ document.addEventListener("keydown", function (event) {
     }
 });
 
-// document.addEventListener("keyup", function (event) {
-//     if (event.keyCode == "38") {
-//         rectangle.style.marginBottom = "0";
-//     }
-// });
-
