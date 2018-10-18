@@ -1,4 +1,5 @@
-var texte = document.getElementById("textequigrandit").style.fontSize = "20px";
+var texte = document.getElementById("textequigrandit");
+texte.style.fontSize = "20px";
 
 texte.addEventListener("click", function () {
 
