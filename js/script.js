@@ -1,16 +1,12 @@
-var texte = document.getElementById("textequigrandit");
-texte.style.fontSize = "20px";
+var texte = document.getElementById("textequigrandit").style.fontSize = "20px";
 
 texte.addEventListener("click", function () {
 
-if (texte.style.fontSize === "20px"){
-texte.style.fontSize = "30px";
-console.log(texte.style.fontSize);
-}
+    if (texte.style.fontSize === "20px") {
+        texte.style.fontSize = "30px";
+    }
 
-else {
-texte.style.fontSize = "20px";
-console.log(texte.style.fontSize);
-}
-console.log(texte.style.fontSize);
+    else {
+        texte.style.fontSize = "20px";
+    }
 });
